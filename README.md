@@ -45,7 +45,7 @@ Sem bibliotecas externas
 
 1) Clone o repositório
 ```shell
-git clone ...
+git clone https://github.com/VictorBertolini/personal-finance-control-python.git
 ```
 2) Abra o terminal na página `Projeto Finanças Pessoais`
 3) Execute o programa
