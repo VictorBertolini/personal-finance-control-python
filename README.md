@@ -92,7 +92,7 @@ id,type,category,description,value,date
 ![Inserindo](docs/images/creating_transaction.png)
 
 ### Mostrar todas as transações
-![Todas as transações](docs/images/)
+![Todas as transações](docs/images/all_transactions.png)
 
 ### Filtrado por mês
 ![Filtrado por mês](docs/images/month_filtered.png)
