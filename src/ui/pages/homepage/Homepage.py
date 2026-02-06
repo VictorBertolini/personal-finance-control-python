@@ -15,19 +15,19 @@ class Homepage:
 
     def initialize(self):
         print("=" * self.line_size)
-        print("BEM VINDO AO")
-        print("CONTROLE DE FINANÇAS PESSOAIS")
+        print("WELCOME TO")
+        print("PERSONAL FINANCE CONTROL")
 
     def menu(self):
         while True:
             print("=" * self.line_size)
             print("Options:")
-            print("1. Inserir uma transação")
-            print("2. Remover uma transação")
-            print("3. Visualizar transações")
-            print("4. Ver saldo atual")
-            print("5. Gerar relatório")
-            print("9. Sair")
+            print("1. Insert a new Transaction")
+            print("2. Remove a Transaction")
+            print("3. Visualize Transactions")
+            print("4. Check current balance")
+            print("5. Generate Summary")
+            print("9. Exit")
 
             try:
                 option = int(input("Choose one: "))
