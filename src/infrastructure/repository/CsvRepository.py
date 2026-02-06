@@ -6,8 +6,8 @@ from src.infrastructure.services.LineToTransactionTransformer import LineToTrans
 
 class CsvRepository(TransactionRepository):
     def __init__(self, file_name: str):
-        self.file_name = "data/" + file_name
-        os.makedirs("data", exist_ok=True)
+        self.file_name = "../data/" + file_name
+        os.makedirs("../data", exist_ok=True)
         if not os.path.exists(self.file_name):
             open(self.file_name, mode="w" ,encoding="utf-8").close()
 
