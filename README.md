@@ -47,7 +47,7 @@ Sem bibliotecas externas
 ```shell
 git clone https://github.com/VictorBertolini/personal-finance-control-python.git
 ```
-2) Abra o terminal na página `Projeto Finanças Pessoais`
+2) Abra o terminal na página `personal-finance-control-python`
 3) Execute o programa
 ```shell
 python -m src.main
@@ -63,6 +63,35 @@ OBS: O programa cria automaticamente o arquivo CSV em `data/` se ele não existi
 - **controllers** – Orquestram chamadas aos casos de uso  
 - **infrastructure** – Persistência e serviços externos  
 - **ui** – Interface do terminal
+
+
+## Estrutura de Arquivos
+```tree
+├───data 
+├───docs
+│   └───images
+└───src
+    ├───controllers
+    │   └───dto
+    │    
+    ├───infrastructure
+    │   ├───repository
+    │   └───services
+    │        
+    ├───model
+    │   ├───entities
+    │   └───repository
+    │        
+    ├───ui
+    │   ├───pages
+    │   │   ├───homepage
+    │   │   └───use_case_pages
+    │   └───summary
+    │       
+    └───use_cases
+        ├───financial
+        └───transaction
+```
 
 
 ## Persistência (CSV)
@@ -86,10 +115,10 @@ id,type,category,description,value,date
 
 ## Amostra do programa:
 ### Início:
-![Homepage](docs/images/program_initialize.png)
+![Homepage](docs/images/page_homepage_menu.png)
 
 ### Inserir Transação
-![Inserindo](docs/images/creating_transaction.png)
+![Inserindo](docs/images/create_transaction_page.png)
 
 ### Mostrar todas as transações
 ![Todas as transações](docs/images/all_transactions.png)
